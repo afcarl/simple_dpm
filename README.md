@@ -25,6 +25,6 @@ Sensitivity
 
 The model is __very__ sensitive to the prior in the above example. Specifically:
 
-    - Changing alpha higher, say to 0.25, will shift the cluster distribution to the right and make the mode around 6.
+ - Changing alpha higher, say to 0.25, will shift the cluster distribution to the right and make the mode around 6.
 
-    - Changing the parameters of the normal inverse-gamma prior can easily skew the resulting assignments and cluster parameters.
+ - Changing the parameters of the normal inverse-gamma prior can easily skew the resulting assignments and cluster parameters.
