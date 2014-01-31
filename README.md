@@ -6,17 +6,19 @@ A small, straightforward Python implementation of Dirichlet process mixtures (DP
 Example
 -------
 
-We start with 200 observed data points drawn from the true distribution.
+The results below are for the default settings in the `dp_mixture.py` file.
 
 ![Observed Data](https://github.com/tansey/simple_dpm/raw/master/points.png)
 
-The results of running with the default parameters are below.
+We start with 200 observed data points drawn from the true distribution.
 
 ![DPM Gibbs Results](https://github.com/tansey/simple_dpm/raw/master/results.png)
 
-Since the true number of clusters is three, it's a good sign that it looks like that's approximately the mode of the distribution.
+The results of running with the default parameters are below.
 
 ![DPM Cluster Sizes](https://github.com/tansey/simple_dpm/raw/master/cluster_counts.png)
+
+Since the true number of clusters is three, it's a good sign that it looks like that's approximately the mode of the distribution.
 
 Sensitivity
 -----------
