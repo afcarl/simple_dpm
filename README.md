@@ -14,7 +14,7 @@ We start with 200 observed data points drawn from the true distribution.
 
 ![DPM Gibbs Results](https://github.com/tansey/simple_dpm/raw/master/results.png)
 
-The results show that Bayes estimate is doing an okay, though not great, job at estimating the density.
+The results show that Bayes estimate is doing an okay, though not great, job at estimating the density. It overestimates the weight of the middle cluster, likely due to the prior being centered at zero.
 
 ![DPM Cluster Sizes](https://github.com/tansey/simple_dpm/raw/master/cluster_counts.png)
 
