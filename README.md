@@ -1,4 +1,4 @@
-A Simple Dirichlet Process Mixture Example
+Simple Dirichlet Process Mixtures
 ==========================================
 
 A small, straightforward Python implementation of Dirichlet process mixtures (DPMs). Inspired by Escobar and West (1995), this example shows how to fit a mixture of three univariate Gaussians with a DPM and a normal inverse-gamma prior.
