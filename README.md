@@ -29,7 +29,7 @@ The model is __very__ sensitive to the prior in the above example. Specifically:
 
  - Changing the parameters of the normal inverse-gamma prior can easily skew the resulting assignments and cluster parameters.
 
- References
- ----------
+References
+----------
 
- [0] Miller, Jeffrey W., and Matthew T. Harrison. "A simple example of Dirichlet process mixture inconsistency for the number of components." (NIPS 2013).
+[0] Miller, Jeffrey W., and Matthew T. Harrison. "A simple example of Dirichlet process mixture inconsistency for the number of components." (NIPS 2013).
