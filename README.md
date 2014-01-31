@@ -1,7 +1,7 @@
 Simple Dirichlet Process Mixtures
 ==========================================
 
-A small, straightforward Python implementation of Dirichlet process mixtures (DPMs). Inspired by Escobar and West (1995), this example shows how to fit a mixture of three univariate Gaussians with a DPM and a normal inverse-gamma prior.
+A small, straightforward Python implementation of Dirichlet process mixtures (DPMs). Inspired by Escobar and West [1], this example shows how to fit a mixture of three univariate Gaussians with a DPM and a normal inverse-gamma prior.
 
 Example
 -------
@@ -18,7 +18,7 @@ The results of running with the default parameters are below.
 
 ![DPM Cluster Sizes](https://github.com/tansey/simple_dpm/raw/master/cluster_counts.png)
 
-Since the true number of clusters is three, it's a good sign that we're getting a lot of draws from around there. Though it's overestimating a bit, that's to be expected [0].
+Since the true number of clusters is three, it's a good sign that we're getting a lot of draws from around there. Though it's overestimating a bit, that's to be expected [2].
 
 Sensitivity
 -----------
@@ -32,4 +32,6 @@ The model is __very__ sensitive to the prior in the above example. Specifically:
 References
 ----------
 
-[0] Miller, Jeffrey W., and Matthew T. Harrison. "A simple example of Dirichlet process mixture inconsistency for the number of components." (NIPS 2013).
+[1] Escobar, Michael D., and Mike West. "Bayesian density estimation and inference using mixtures." Journal of the American Statistical Association. Vol. 90, No. 430 (1995): 577-588.
+
+[2] Miller, Jeffrey W., and Matthew T. Harrison. "A simple example of Dirichlet process mixture inconsistency for the number of components." (NIPS 2013).
